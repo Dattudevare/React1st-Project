@@ -227,7 +227,7 @@ function Registration() {
                                     Password:
                                 </Form.Label>
                                 <Form.Control type='password' name='password'
-                                    placeholder='full-name' onChange={Getinputdata}
+                                    placeholder='Your Password' onChange={Getinputdata}
                                     value={Input.password} />
                             </Form.Group>
 
@@ -248,7 +248,7 @@ function Registration() {
                                     placeholder='Mobile' />
                             </Form.Group>
                             {/* <p>{JSON.stringify(allData)}</p> */}
-                            {JSON.stringify(Input)}
+                            {/* {JSON.stringify(Input)}   */}
                             <br></br>
 
                             {/* <Button type='submit' className='me-3'> Submit</Button> */}
